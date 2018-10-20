@@ -1,6 +1,9 @@
 # combine-mobx-store
 🍺 Combine multiple store files into one mobx-store.
 
+## Install
+`npm install combine-mobx-store`
+
 ## Usage
 ```js
 import { action, observable } from 'mobx';
