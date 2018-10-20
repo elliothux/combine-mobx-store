@@ -1,8 +1,4 @@
-# combine-mobx-store
-🍺 Combine multiple store files into one mobx-store.
 
-## Usage
-```js
 import { action, observable } from 'mobx';
 import { combine } from 'combine-mobx-store';
 
@@ -32,4 +28,3 @@ console.log(store.foo); // 2
 console.log(store.bar); // 2
 store.plusBar();
 console.log(store.bar); // 3
-```
